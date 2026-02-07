@@ -70,6 +70,9 @@ Install dependencies:
 
     pip install opencv-python numpy flask requests
 
+    https://github.com/eveningglow/age-and-gender-classification/blob/master/model/gender_net.caffemodel  #download it and store it in same folder
+    
+
 ------------------------------------------------------------------------
 
 ## 📁 Project Structure
