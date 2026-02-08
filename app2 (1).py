@@ -619,10 +619,10 @@ dashboard_state = {
 # --- Twilio SOS Configuration (use environment variables) ---
 # Set these in your environment: TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN,
 # TWILIO_FROM_NUMBER, SOS_TO_NUMBER
-TWILIO_ACCOUNT_SID = "AC4ef64d47ff7f1f2548908a47a738bec4"
-TWILIO_AUTH_TOKEN = "0ff2281b01e0b99036a752da8a63517a"
-TWILIO_FROM_NUMBER = "+12297017515"
-SOS_TO_NUMBER = "+916200824071"
+TWILIO_ACCOUNT_SID = "**********"
+TWILIO_AUTH_TOKEN = "***********"
+TWILIO_FROM_NUMBER = "+122*****15"
+SOS_TO_NUMBER = "+**********"
 SOS_THROTTLE_SECONDS = int(os.getenv("SOS_THROTTLE_SECONDS", "60"))
 last_sos_time = 0
 
@@ -1075,4 +1075,5 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"[ERROR] Failed to start Flask: {e}")
         import traceback
+
         traceback.print_exc()
